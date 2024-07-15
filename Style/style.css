@@ -1,0 +1,79 @@
+/* related Styles */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    width: 160px;
+    height: 54px;
+    border: none;
+    margin-top: 32px;
+    color: white;
+    font-size: 1rem;
+}
+
+/* header section Style */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navbar style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    color: rgb(19, 19, 19);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(66, 66, 66);
+    font-family: 'Work Sans';
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner section style */
+.banner-contant{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.banner-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-img{
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* responsive media */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-link{
+        flex-direction: column;
+    }
+    
+}
